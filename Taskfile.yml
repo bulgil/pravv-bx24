@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build -o ./bin/bx24 ./app/cmd/BX24
+  
+  start:
+    cmds:
+      - ./bin/bx24
